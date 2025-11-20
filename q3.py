@@ -1,7 +1,8 @@
-T = int(input())
-for _ in range(T):
-    s = input()
-    if s == s[::-1]:
-        print(1)
-    else:
-        print(0)
+def sq(x):
+    return x*x
+
+def py(a, b):
+    return sq(a) + sq(b)
+
+c = py(3, 4)
+print(c)

@@ -1,5 +1,3 @@
-A = input()
-if A.isalpha():
-    print(1)
-else:
-    print(0)
+f = lambda x: "even" if x%2==0 else "odd"
+n = int(input())
+print(f(n))

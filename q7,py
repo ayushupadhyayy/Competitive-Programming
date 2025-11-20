@@ -1,11 +1,11 @@
 name = "Suyash"
 print(name)
 
-def t():
+def fun():
     global name
-    print(name)
     name = "Chaudhary"
-    print(name)
+    lang = "Python"
+    print(lang)
 
-t()
+fun()
 print(name)

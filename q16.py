@@ -1,6 +1,6 @@
-A = input()
-c = 0
-for i in range(len(A)-2):
-    if A[i:i+3] == "bob":
-        c += 1
-print(c)
+def ok(x):
+    return x%2==0
+
+seq = [1,2,3,4,5,6,7,8]
+f = list(filter(ok, seq))
+print(f)

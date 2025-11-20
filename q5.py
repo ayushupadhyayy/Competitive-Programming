@@ -1,5 +1,9 @@
-A = input()
-i = 0
-while i < len(A) and A[i] == '*':
-    i += 1
-print(A[i:])
+name = "Suyash"
+
+def t():
+    print(name)
+    lang = "Python"
+    print(lang)
+
+t()
+print(name)
